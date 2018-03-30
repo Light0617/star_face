@@ -6,13 +6,19 @@ $color-primary-dark: #a531f6;
 $color-secondary-light: #ffb900;
 $color-secondary-dark: #ff7730;
 
-$color-tertiary-light: #2998ff;
-$color-tertiary-dark: #5643fa;
+$color-tertiary-light: #00c5ff;
+$color-tertiary-dark: #3053ff;
 
+$color-forth-light: #f473e8;
+$color-forth-dark: #76066c;
 
 $color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
 
 $color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
 $color-white: #fff;
 $color-black: #000;
 
@@ -23,3 +29,13 @@ $default-font-size: 1.8rem;
 $grid-width: 200rem;
 $gutter-vertical: 8rem;
 $gutter-horizontal: 12rem;
+
+//BORDER
+$border-radius-size: 5rem;
+
+//GAP
+$samll_gap: 10rem;
+
+
+//my Face
+$myface : '../img/friendsList/Peng.png';
