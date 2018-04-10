@@ -4,5 +4,5 @@ import ReactDOM from 'react-dom';
 const State = (props) => {
     return
 };
-export const myName = 'Peng';
+export const myName = 'Ann';
 export default State;

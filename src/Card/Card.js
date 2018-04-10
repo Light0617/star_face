@@ -3,10 +3,11 @@ import '../css/style.css';
 import ReactDOM from 'react-dom';
 import imgs from '../img/friendsList/Peng.png'
 import Popup_star from '../Popup_star.js';
-var state = require("../State.js");
+// var state = require("../Popup_star.js");
 const Card = (props) => {
     const changeFaceHandler = () => {
-        state.myName = props.name;
+        alert('hi');
+        //Popup_star.handleInputChange('Jing');
      }
     return (
         <div className = 'card'>

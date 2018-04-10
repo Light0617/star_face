@@ -5,12 +5,12 @@ import myface from './State.js';
 class Friends extends Component{
     state = {
         friends : [
-            { id : 'asd', name : 'Peng',  detail : 'Coding king'},
-            { id : 'kas', name : 'bamboo', detail : 'Nice person'},
-            { id : 'ass', name : 'Anliu', detail : 'cute'},
-            { id : 'asd', name : 'Ann',  detail : 'Coding king'},
-            { id : 'kas', name : 'jing', detail : 'Nice person'},
-            { id : 'ass', name : 'Sunny', detail : 'cute'}
+            { id : 'qwe', name : 'Peng',  detail : 'Coding king'},
+            { id : 'asd', name : 'bamboo', detail : 'Nice person'},
+            { id : 'zxc', name : 'Anliu', detail : 'cute'},
+            { id : 'wer', name : 'Ann',  detail : 'Coding king'},
+            { id : 'sdf', name : 'jing', detail : 'Nice person'},
+            { id : 'xcv', name : 'Sunny', detail : 'cute'}
         ],
         showFriends: true
     }
@@ -31,7 +31,7 @@ class Friends extends Component{
 
     render() {
         let card = (person, col) => {
-            return <div class = 'col-1-of-3'>
+            return <div className = 'col-1-of-3'>
                 <Card
                 name = {person.name}
                 col = {col}
@@ -49,7 +49,7 @@ class Friends extends Component{
             let items = people.map( (person, i) => {
                 return card(person, cols[i]);
                 });
-          return <div class = 'row'>
+          return <div className = 'row'>
             {items}
           </div>
         };
@@ -57,8 +57,8 @@ class Friends extends Component{
         let x = this.state.friends[0];
         return(
             <div>
-                <div class = 'u-center-text u-margin-bottom-big'>
-                        <h2 class = 'heading-secondary'> Most closest friend </h2>
+                <div className = 'u-center-text u-margin-bottom-big'>
+                        <h2 className = 'heading-secondary'> Most closest friend </h2>
                 </div>
             {firstFriends(people1)}
             {firstFriends(people2)}
